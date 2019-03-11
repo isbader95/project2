@@ -10,20 +10,18 @@
     <link rel="stylesheet" href="styles/style.css" media="screen" charset="utf-8">
 </head>
 <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
     <header>
       <section class="container">
         <a href="#"><h1>Feedr</h1></a>
         <nav>
           <ul>
+            
             <li><a href="#">News Source: <span>Source Name</span></a>
               <ul>
-                  <li><a href="#">Source 1</a></li>
-                  <li><a href="#">Source 2</a></li>
-                  <li><a href="#">Source 3</a></li>
+                  
+                  <li id="BBC" class="list"><a href="#">BBC</a></li>
+                  <li id="CNN" class="list"><a href="#">CNN</a></li>
+                  <li id="IGN" class="list"><a href="#">IGN</a></li>
               </ul>
             </li>
           </ul>
@@ -35,7 +33,7 @@
         <div class="clearfix"></div>
       </section>
     </header>
-    <div id="popUp" class="loader hidden">
+    <div id="popUp" class="loader ">
       <a href="#" class="closePopUp">X</a>
       <div class="container">
         <h1>Article title here</h1>
@@ -47,65 +45,69 @@
     </div>
     <section id="main" class="container">
       <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_1.jpg" alt="" />
+        <section id="first_image" class="featuredImage">
         </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
+        <section id="first" class="articleContent">
         </section>
-        <section class="impressions">
-          526
+        <section id="first_author" class="impressions">
         </section>
         <div class="clearfix"></div>
       </article>
       <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_2.jpg" alt="" />
+        <section id = "second_image" class="featuredImage">
+        
         </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
+        <section id="second" class="articleContent">
+          
         </section>
-        <section class="impressions">
-          526
+        <section id="second_author"class="impressions">
         </section>
         <div class="clearfix"></div>
       </article>
       <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_2.jpg" alt="" />
+        <section id="third_image" class="featuredImage">
         </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
+        <section id="third" class="articleContent">
         </section>
-        <section class="impressions">
-          526
+        <section id="third_author" class="impressions">
         </section>
         <div class="clearfix"></div>
       </article>
       <article class="article">
-        <section class="featuredImage">
-          <img src="images/article_placeholder_1.jpg" alt="" />
+        <section id = "forth_image" class="featuredImage">
         </section>
-        <section class="articleContent">
-            <a href="#"><h3>Test article title</h3></a>
-            <h6>Lifestyle</h6>
+        <section id="forth" class="articleContent">
         </section>
-        <section class="impressions">
-          526
+        <section id="forth_author" class="impressions">
         </section>
         <div class="clearfix"></div>
       </article>
+      <article class="article">
+        <section id = "fifth_image" class="featuredImage">
+        </section>
+        <section id="fifth" class="articleContent">
+        </section>
+        <section id="fifth_author" class="impressions">
+      </section>
+      <div class="clearfix"></div>
+    </article>
+   <article class="article">
+    <section id = "sixth_image" class="featuredImage">
     </section>
+    <section id="sixth" class="articleContent">
+    </section>
+    <section id="sixth_author" class="impressions">
+    </section>
+    <div class="clearfix"></div>
+  </article>
+</section>
 
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 
-    <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
 </html>

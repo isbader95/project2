@@ -27,6 +27,8 @@
     background-image: url(../images/ajax_loader.gif);
     background-repeat: no-repeat;
     background-position: center center;
+    height: 100%;
+    width: 100%;
   }
   
   #popUp.loader .container {

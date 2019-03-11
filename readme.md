@@ -31,10 +31,8 @@ __Feed sources:__
 
 Give the user the ability to pull from a multiple news sources. Here are two news sources we suggest:
 
-- [News API](https://newsapi.org/)
-- [The New York Times](https://developer.nytimes.com/) 
-- [The Guardian Open Platform](https://open-platform.theguardian.com/) 
-
+- [NPR One](http://dev.npr.org/)
+- [Hearst publishing group](http://developer.hearst.com/) (Cosmopolitan, Elle, Popular Mechanics, Road and Track, etc.)
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
 
